@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="converter-input">
+        <h3 id="main-title">Metric/Imperial Unit Conversion</h3>
+        <input type="number" id="input" placeholder="0" class="inter-400" min="0">
+        <button id="convert-btn" class="inter-400">Convert</button>
+    </div>
+    <div id="converted-panel">
+        <div class="conversions">
+            <h4 class="units">Length (Meter/Feet)</h4>
+            <p id="m-and-ft">1 meter(s) = 3.281 feet | 1 feet = 0.305 meter(s)</p>
+        </div>
+        <div class="conversions">
+            <h4 class="units">Volume (Liters/Gallon)</h4>
+            <p id="l-and-gal">1 liter(s) = 0.264 gallon(s) | 1 gallon(s) = 3.785 liter(s)</p>
+        </div>
+        <div class="conversions">
+            <h4 class="units">Mass (Kilograms/Pound)</h4>
+            <p id="kg-and-lbs">1 kilogram(s) = 2.204 pound(s) | 1 pound(s) = 0.454 kilogram(s)</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
